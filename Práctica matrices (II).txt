@@ -1,0 +1,31 @@
+var a= "Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo";
+
+alert (a.split (","));
+// Nos creará un array [Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo]
+
+a[0].push ("Madrid");
+// Mostrará [[Lunes, Madrid], Martes, Miércoles, Jueves, Viernes, Sábado, Domingo]
+
+a[1].push ("Sevilla");
+// Mostrará [[Lunes, Madrid], [Martes, Sevilla], Miércoles, Jueves, Viernes, Sábado, Domingo]
+
+a[2].push ("Barcelona");
+// Mostrará [[Lunes, Madrid], [Martes, Sevilla], [Miércoles, Barcelona], Jueves, Viernes, Sábado, Domingo]
+
+a[3].push ("Valencia");
+// Mostrará [[Lunes, Madrid], [Martes, Sevilla], [Miércoles, Barcelona], [Jueves,Valencia], Viernes, Sábado, Domingo]
+
+a[4].push ("Zaragoza");
+// Mostrará [[Lunes, Madrid], [Martes, Sevilla], [Miércoles, Barcelona], [Jueves,Valencia], [Viernes, Zaragoza], Sábado, Domingo]
+
+a[5].push ("Bilbao");
+// Mostrará [[Lunes, Madrid], [Martes, Sevilla], [Miércoles, Barcelona], [Jueves,Valencia], [Viernes, Zaragoza], [Sábado, Bilbao], Domingo]
+
+a[5].push ("Donosti");
+// Mostrará [[Lunes, Madrid], [Martes, Sevilla], [Miércoles, Barcelona], [Jueves,Valencia], [Viernes, Zaragoza], [Sábado, Bilbao], [Domingo, Donosti]]
+
+
+
+
+
+
